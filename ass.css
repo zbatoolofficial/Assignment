@@ -84,6 +84,9 @@ li:hover {
   color: rgb(255, 196, 0);
 }
 
+.drp-cntnt li a:nth-child(1){
+  color: #fff;
+}
 .dropdown:hover .drp-cntnt {
   display: block;
 }
@@ -737,6 +740,7 @@ text-align: center;
   height: 40vh;
   background-image: url(15.jpg);
   background-size: cover;
+  border-radius: 50%;
  margin-top: 3%;
   margin-left: 3%;
 }
@@ -760,4 +764,240 @@ margin-top: 0%;
    text-align: center;
   width: 100%;
   height: 60vh;
+}
+.contactmap{
+  background-image: url(16.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height:50vh;
+  margin-top: 2%;
+  align-items: center;
+}
+.chmnlft{
+  display: flex;
+flex-direction:column;
+width: 100%;
+height: 75vh;
+margin-top: 5%;
+}
+.chmn{
+  margin-left: 5%;
+}
+.chmnlft button{
+ width: 15%;
+padding: 10px 20px;
+background-color: rgb(5, 5, 122);
+color: white;
+border: none;
+margin-top:3%;
+margin-left: 5%;
+}
+.chmnlft h4{
+  margin-top: 3px;
+}
+.chmnlft input[type="text"],input[type="password"]
+{
+  margin-top: 5px;
+  padding: 10px 80px;
+width: 80%;
+
+}
+.team{
+  width: 100%;
+  height: 45vh;
+  align-items: center;
+}
+.temimg{
+  background-image: url(team.jpg);
+  background-size: cover;
+  width: 80%;
+  background-position: center;
+  height: 40vh;
+margin-left: 10%;
+margin-top: 4%;
+border: 2px solid rgb(255, 196, 0);
+}
+.teamp{
+  text-align: center;
+  width: 80%;
+  height: 20vh;
+  margin-left: 10%;
+}
+.temimg1{
+  background-image: url(stdy.jpg);
+  background-size: cover;
+  width: 80%;
+  background-position: center;
+  height: 40vh;
+margin-left: 10%;
+margin-top: 4%;
+border: 2px solid rgb(255, 196, 0);
+}
+.temimg2{
+  background-image: url(behav.jpg);
+  background-size: cover;
+  width: 80%;
+  background-position: center;
+  height: 40vh;
+margin-left: 10%;
+margin-top: 4%;
+border: 2px solid rgb(255, 196, 0);
+}
+.temimg3{
+  background-image: url(carr.jpg);
+  background-size: cover;
+  width: 80%;
+  background-position: center;
+  height: 40vh;
+margin-left: 10%;
+margin-top: 4%;
+border: 2px solid rgb(255, 196, 0);
+}
+.temimg4{
+  background-image: url(ss.jpg);
+  background-size: cover;
+  width: 80%;
+  background-position: center;
+  height: 40vh;
+margin-left: 10%;
+margin-top: 4%;
+border: 2px solid rgb(255, 196, 0);
+}
+/* shop */
+.inb ul{
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  background-color: azure;
+  }
+ .inbmain{
+   width: 100%;
+   height: 47vh;
+ }
+  
+  .tbl{
+      height: 45vh;
+ 
+  display: flex;
+  flex-direction: row;
+  }
+
+  .tbl1{
+      margin:10px 8px;
+      padding:4px 8px;
+      background-image:url(p2h.jpg);
+      width:25%; 
+      border: 1px solid rgb(199, 196, 196);
+      height:40vh;
+      background-size: cover;
+  }
+  .tbl1:hover{
+      background-image:url(p3.jpg);
+      width:25%; 
+      height:40vh;
+      background-size: cover;
+      padding:4px 8px;
+      margin:10px 8px;
+      transition: 2s all linear;
+      background-position: center;
+  }
+  .tbl2{
+    border: 1px solid rgb(199, 196, 196);
+      background-image:url(p1h.jpg);
+      width:25%; 
+      height:40vh;
+      background-size: cover;
+      padding:4px 8px;
+      margin:10px 8px;
+  }
+  .tbl2:hover{
+      background-image:url(p2.jpg);
+      width:25%; 
+      height:40vh;
+      background-size: cover;
+      padding:4px 8px;
+      margin:10px 8px;
+      transition: 2s all linear;
+      background-position: center;
+  }
+  .tbl3{
+      margin:10px 8px;
+      padding:4px 8px;
+      background-image:url(p3h.jpg);
+      width:25%; 
+      background-size: cover;
+      height:40vh;
+      border: 1px solid rgb(199, 196, 196);
+  }
+  .tbl3:hover{
+      background-position: center;
+      background-image:url(p1.jpg);
+      width:25%; 
+      height:40vh;
+      background-size: cover;
+      padding:4px 8px;
+      margin:10px 8px;
+      transition: 2s all linear;
+  }
+
+  
+  .tbl13{
+    margin:10px 8px;
+    padding:4px 8px;
+    background-image:url(as.jpg);
+    width:25%; 
+  
+    border: 1px solid rgb(199, 196, 196);
+    height:40vh;
+    background-size: cover;
+}
+.tbl13:hover{
+    background-image:url(p3.jpg);
+    width:25%; 
+    opacity: 0.9;
+    height:40vh;
+    background-size: cover;
+    padding:4px 8px;
+    margin:10px 8px;
+    transition: 2s ;
+    background-position: center;
+}
+.tbl21{
+  border: 1px solid rgb(199, 196, 196);
+    background-image:url(p62.jpg);
+    width:25%; 
+    height:40vh;
+    background-size: cover;
+    padding:4px 8px;
+    margin:10px 8px;
+}
+.tbl21:hover{
+    background-image:url(p2.jpg);
+    width:25%; 
+    height:40vh;
+    background-size: cover;
+    padding:4px 8px;
+    margin:10px 8px;
+    transition: 2s all linear;
+    background-position: center;
+}
+.tbl32{
+    margin:10px 8px;
+    padding:4px 8px;
+    background-image:url(p5.jpg);
+    width:25%; 
+    background-size: cover;
+    height:40vh;
+    border: 1px solid rgb(199, 196, 196);
+}
+.tbl32:hover{
+    background-position: center;
+    background-image:url(p1.jpg);
+    width:25%; 
+    height:40vh;
+    background-size: cover;
+    padding:4px 8px;
+    margin:10px 8px;
+    transition: 2s all linear;
 }
